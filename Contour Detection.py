@@ -1,16 +1,3 @@
-"""
-1. run
-2. choose ROIs, enter "space" to confirm, enter "Esc" to exit
-3. get results
-
-library:
-pip install opencv-python
-
-parameters:
-rois: selected ROIs(RGB)
-gray_roi: one of rois(Gray)
-"""
-
 import time
 import matplotlib.pyplot as plt
 import numpy as np
@@ -86,3 +73,4 @@ for i in range(len(rois)):
              ha='center', va='bottom')
     plt.axis('off')
     plt.show()
+
